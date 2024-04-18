@@ -63,7 +63,7 @@ header a {
 
 #top {
     background-color: var(--light-blue);
-    background-image: url('../img/header.jpg');
+    background-image: url('header.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
