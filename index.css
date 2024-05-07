@@ -138,6 +138,9 @@ header a {
 /*skill*/
 
 /*work*/
+#work {
+    padding: 7rem 0;
+}
 .workimg {
     width: 100%;
     height: auto;
@@ -147,7 +150,7 @@ header a {
 /*hobby*/
 #hobby {
     background-image: linear-gradient(#f0cba5,#ed6b82);
-    padding: 7rem 0;
+    padding: 6rem 1rem 2rem;
     -webkit-clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
     clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
 }
@@ -169,8 +172,10 @@ header a {
   }
 /*hobby*/
 
+
 /*con footer*/
-/*#contact {
+/*
+#contact {
     background-image: linear-gradient(#f0cba5,#ed6b82);
     padding: 6rem 1rem 2rem;
     -webkit-clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
@@ -198,7 +203,9 @@ header a {
     width: 100%;
     padding: 1rem;
     margin-top: 1rem;
-}*/
+}
+*/
+
 .footer {
     padding-top: 2rem;
     text-align: center;
@@ -209,6 +216,7 @@ header a {
 .footer a {
     text-decoration: underline;
 }
+
 /*con footer*/
 
 @media (min-width: 600px) {
