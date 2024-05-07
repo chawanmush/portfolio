@@ -50,7 +50,7 @@ header a {
 .menu {
     position: absolute;
     top: 12px;
-    right: 12px;
+    right: 5px;
     padding: .5rem 1rem;
     display: flex;
     gap: 12px;
