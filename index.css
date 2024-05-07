@@ -146,9 +146,8 @@ header a {
 
 /*hobby*/
 #hobby {
-    padding: 7rem 0;
     background-image: linear-gradient(#f0cba5,#ed6b82);
-    padding: 6rem 1rem 2rem;
+    padding: 7rem 0;
     -webkit-clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
     clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
 }
@@ -205,6 +204,7 @@ header a {
     text-align: center;
     font-size: .8rem;
     color: var(--white);
+    background-color: #ed6b82;
 }
 .footer a {
     text-decoration: underline;
