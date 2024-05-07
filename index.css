@@ -46,7 +46,7 @@ header a {
 .menu {
     position: absolute;
     top: 12px;
-    right: 5px;
+    right: 12px;
     padding: .5rem 1rem;
     display: flex;
     gap: 12px;
@@ -138,7 +138,7 @@ header a {
     padding: 7rem 0;
 }
 .workimg {
-    width: 100%;
+    width: 300px;
     height: auto;
 }
 /*work*/
@@ -150,6 +150,7 @@ header a {
     -webkit-clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
     clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
 }
+
 
 .imgh {
     width: 250px;
