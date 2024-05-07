@@ -151,6 +151,10 @@ header a {
     clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
 }
 
+.anime {
+    width: 400px;
+    height: auto;
+}
 
 .imgh {
     width: 250px;
