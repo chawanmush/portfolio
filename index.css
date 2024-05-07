@@ -150,12 +150,11 @@ header a {
     -webkit-clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
     clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
 }
-img {
-    max-width: 100%;
-}
+
 .imgh {
     width: 250px;
     height: 250px;
+    max-width: 100%;
     border-radius: 50% 50% 50% 0;
     filter: grayscale(100%);
     transition: .3s ease-in-out;
