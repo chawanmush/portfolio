@@ -134,12 +134,19 @@ header a {
 /*skill*/
 
 /*work*/
-#work {
-    padding: 7rem 0;
-}
 .workimg {
-    width: 270px;
-    height: auto;
+    width: 320px;
+    height: 210px;
+}
+
+.item {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
 }
 /*work*/
 
@@ -155,7 +162,6 @@ header a {
     width: 400px;
     height: auto;
 }
-
 .imgh {
     width: 250px;
     height: 250px;
@@ -222,7 +228,7 @@ header a {
 
 /*con footer*/
 
-@media (min-width: 600px) {
+@media (max-width: 600px) {
     a:hover,
     .btn:hover {
         transition: .3s;
@@ -235,5 +241,10 @@ header a {
     }
     .imagh:hover {
         transform: scale(1.2);
-    }    
+    }   
+    .item {
+    display: grid;
+    grid-template-columns: 500px;
+    gap: 50px;
+    }
 }
